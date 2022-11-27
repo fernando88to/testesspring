@@ -25,5 +25,10 @@ class IndexController {
         return ResponseEntity.ok(peopleList)
     }
 
+    @GetMapping('/')
+    ResponseEntity<String> index3() {
+        return ResponseEntity.ok('Hello word8')
+    }
+
 
 }
